@@ -91,37 +91,27 @@ p {
   h1 {
     text-align: center;
   }
-}
 
-@media (max-width: 576px) {
   h2 {
-    font-size: 32px;
+  font-size: 32px;
   }
-}
-
-@media (max-width: 576px) {
-  .primary-link {
-display: block;
-  text-align: center;
-  margin: 0 20px;
-}
-}
-
-@media(max-width:576px){
-  .homepage-img{
-    display:none;
+  
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
-}
-
-@media (max-width: 576px) {
+  
   p {
-  text-align: center;
-}
+    text-align: center;
+  }
+  
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 33%;
+  }
 }
 
-@media (min-width: 576px) {
-  .col-sm-4{
-  flex: 0 0 auto;
-    width: 33%;
-}
-}
+
+
+
