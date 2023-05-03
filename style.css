@@ -93,25 +93,17 @@ p {
   }
 
   h2 {
-  font-size: 32px;
+    font-size: 32px;
   }
-  
-  .project-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
-  
+
   p {
-    text-align: center;
-  }
-  
-  .col-sm-4 {
-    flex: 0 0 auto;
-    width: 33%;
-  }
+  text-align: center;
+   }
+
+.project-link {
+display: block;
+  text-align: center;
+  margin: 0 20px;
 }
 
-
-
-
+}
